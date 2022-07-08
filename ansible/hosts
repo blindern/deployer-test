@@ -1,0 +1,6 @@
+# NOTE: If adding new hosts, also check the files in host_vars
+# directory, and do a "git grep fcos-1" to locate other places
+# that must be updated.
+
+host1 ansible_connection=local
+host2 ansible_connection=local
